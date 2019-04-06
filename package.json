@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      "github:pinguinjkeke/react-native-calendars#test",
+      "/Users/nurlan/Projects/raw"
+    ]
+  ],
+  "_from": "github:pinguinjkeke/react-native-calendars#test",
+  "_id": "react-native-calendars@github:pinguinjkeke/react-native-calendars#2a837939d4cc24f5d024da43e2dea48abe1d2e0b",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-calendars",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:pinguinjkeke/react-native-calendars#test",
+    "rawSpec": "github:pinguinjkeke/react-native-calendars#test",
+    "saveSpec": "github:pinguinjkeke/react-native-calendars#test",
+    "fetchSpec": null,
+    "gitCommittish": "test"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:pinguinjkeke/react-native-calendars#2a837939d4cc24f5d024da43e2dea48abe1d2e0b",
+  "_spec": "github:pinguinjkeke/react-native-calendars#test",
+  "_where": "/Users/nurlan/Projects/raw",
+  "author": {
+    "name": "Wix.com"
+  },
+  "bugs": {
+    "url": "https://github.com/wix/react-native-calendars/issues"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.isequal": "^4.5.0",
+    "prop-types": "^15.5.10",
+    "xdate": "^0.8.0"
+  },
+  "description": "React Native Calendar Components",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.0",
+    "jasmine": "^2.5.2",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.2"
+  },
+  "homepage": "https://github.com/wix/react-native-calendars#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "react-native-calendars",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix/react-native-calendars.git"
+  },
+  "scripts": {
+    "lint": "eslint src/ example/src",
+    "test": "jasmine src/*.spec.js && npm run lint"
+  },
+  "version": "1.19.3"
+}
